@@ -1,0 +1,23 @@
+// Future<Countries> fetchLeagues() async {
+//     var headers = {
+//       'x-rapidapi-key': '2f0b37b9f6mshef534bb4c9859b1p11dd14jsnbd0765af3557',
+//       'x-rapidapi-host': 'v3.football.api-sports.io'
+//     };
+
+//     var request = http.Request(
+//         'GET', Uri.parse('https://v3.football.api-sports.io/countries'));
+//     request.headers.addAll(headers);
+//     http.StreamedResponse response2 = await request.send();
+//     final respStr = await response2.stream.bytesToString();
+//     print(respStr);
+
+//     return parsePaths(respStr);
+//   }
+
+//   Countries parsePaths(String responseBody) {
+//     print("enter");
+//     final parsed = json.decode(responseBody);
+//     print(parsed);
+//     final countries = Countries.fromJson(parsed);
+//     return countries;
+//   }
