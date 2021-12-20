@@ -86,7 +86,7 @@ class _MainScreenState extends State<MainScreen>
               onPressed: () => _selectDate(context),
             )
           ],
-          title: Text("Matches"),
+          title: Text("Dated Tabs"),
         ),
         body: TabBarView(
           children: getWidgets(),
